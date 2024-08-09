@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height:100vh;
+}
+header{
+    min-height:10%;
+    background-color: #FF8C9E;
+    color:#FFDA76;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:2rem;
+}
+
+.container{
+    min-height:90%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #B4D6CD;
+    color:#FF4E88;
+}
+
+.another-container{
+    background-color: #ffffff69;    
+    padding:3rem;
+    border-radius:1rem;
+}
+
+h2{
+    text-align:center;
+    font-size:3rem;
+    line-height:3;
+}
+
+.bill_container, .percent_container,  .text_container{
+    display: flex;
+    flex-direction:column;
+}
+
+button{
+    margin:2rem 0;
+    background-color:#FFDA76;
+    border:none;
+    border-radius:1rem;
+    border:1px solid #fff;
+    padding:1rem 0;
+    color:#FF4E88;
+}
+
+label{
+    margin:1rem 0;
+}
+
+input{
+    padding:1rem;
+    border-radius:1rem;
+    outline: none;
+    border:3px solid #fff;
+}
+
+.total-text, .interest-amt{
+    font-size:2rem;
+}

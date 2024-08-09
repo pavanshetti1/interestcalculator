@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calulcator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <h1>Tip Calulcator</h1>
+    </header>
+
+    <div class="container">
+        <div class="another-container">
+            <form>
+                <h2>Tip Calulcator</h2>
+                <p>Enter the bill amount  and tip percentage  to calulate the total</p>
+                <div class="text_container">
+                    <div class="bill_container">
+                        <label for="input-bill">Bill amount</label>
+                        <input type="text" id="input-bill" value="">
+                    </div>
+                    
+                    <div class="percent_container">
+                        <label for="input-percent">Tip percentage:</label>
+                        <input type="text" id="input-percent" value="">
+                    </div>
+                    <button>Caluclate</button>
+                </div>
+    
+                <p class="interest-amt">Interest amt: $0</p>
+                <p class="total-text">Total : $0</p>
+            </form>
+        </div>  
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
